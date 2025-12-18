@@ -1,7 +1,0 @@
-#!/bin/bash
-set -eux
-
-git lfs install --local
-git lfs pull
-
-python -m pip install -e .
